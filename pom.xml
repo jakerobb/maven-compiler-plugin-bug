@@ -20,6 +20,8 @@
                 <version>3.7.0</version>
                 <configuration>
                     <fork>true</fork>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <compilerArgs>
                         <arg>-J-Xss160k</arg>
                     </compilerArgs>
