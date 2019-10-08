@@ -1,3 +1,5 @@
+package com.jakerobb.plexusjavacbug;
+
 import org.codehaus.plexus.DefaultPlexusContainer;
 import org.codehaus.plexus.PlexusContainer;
 import org.codehaus.plexus.compiler.Compiler;
@@ -23,7 +25,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class ReproducerTest {
+public class PlexusJavacBugReproducerTest {
     private static final Matcher<CompilerMessage> KIND_IS_ERROR = new TypeSafeMatcher<>() {
         @Override
         protected boolean matchesSafely(CompilerMessage compilerMessage) {
